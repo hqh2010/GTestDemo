@@ -10,9 +10,12 @@ set(MAIN_SOURCES
 set(LINK_LIBS
     stdc++
     )
-
+    
 add_executable(main
         ${MAIN_SOURCES})
+
+target_link_libraries(main
+                      PRIVATE ${LINK_LIBS})
 
 #target_include_directories(main PRIVATE ${GLIB_INCLUDE_DIRS})
 

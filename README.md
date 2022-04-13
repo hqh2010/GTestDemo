@@ -24,6 +24,8 @@ make -j16
 
 ./bin/func_test
 
+sudo apt install lcov
+
 ./code_coverage.sh 可以统计单元测试的代码覆盖率，结果生成在GTestDemo/build/coverage/coverage_report/index.html，如下图：
 
 <div align=center>
